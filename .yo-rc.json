@@ -1,0 +1,58 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.touchapi.touch",
+      "nativeLanguage": "ko"
+    },
+    "jhipsterVersion": "6.9.0",
+    "applicationType": "monolith",
+    "baseName": "touch",
+    "packageName": "com.touchapi.touch",
+    "packageFolder": "com/touchapi/touch",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "YzUxNTVmNmM3NWM0ODE2ZmQ3NDVkNTA1OGU2MGQ0N2ZlYjExYmE1NWJlMDk3MzE1MTVhMDczZDY2OTEwMGFiYmMwY2MxNjQxZTIwZTNlNzA5MGZhYTAwOTdjOTYxZjhiNmY2MjY3NWJlYzhmOTZmOTgxMTBlM2I4YjMxNmJhZDk=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1590859753717,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      },
+      {
+        "name": "generator-jhipster-administration-database",
+        "version": "1.0.4"
+      },
+      {
+        "name": "generator-jhipster-translation",
+        "version": "1.0.4"
+      },
+      {
+        "name": "generator-codegen",
+        "version": "0.3.1"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ko",
+    "languages": ["ko", "en"],
+    "blueprints": [],
+    "reactive": true
+  }
+}
